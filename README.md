@@ -1,47 +1,48 @@
-# Hi there! 👋 I'm Álvaro
+# Hi there! 👋 I'm Álvaro Diez
 
 ## 🚀 About Me
 
-I'm a **Machine Learning Engineer** passionate about **Mathematics**, **MLOps**, **Big Data**, and building efficient systems.
+I'm an **AI Platform / ML Engineer** specialized in **MLOps** passionate about Mathematics, Data Science and MLOps. I'm also an **Adjunct Lecturer** of Big Data at UNIE University.
 
-## 🔭 Featured Projects
 
-### 🔬 [pysuricata](https://github.com/alvarodiez20/pysuricata)
-A lightweight **Exploratory Data Analysis (EDA)** toolkit built just for fun.
-- Inspired by the curious nature of suricates 
-- Designed for quick, intuitive data insights
-- Perfect for jumpstarting new data science projects
+## 🔭 Open Source & Projects
+
+I love building fun, high-performance tools on the side:
 
 ### 🧠 [2048 - RL Agents & MPS Optimization](https://github.com/alvarodiez20/2048)
-A sophisticated reinforcement learning project training custom agents (DQN, CNN) to master the 2048 game.
-- **Key Tech**: Rust, WebAssembly, PyTorch (MPS/CUDA), Python
-- ⚡ Optimized for **Apple M4 GPU** (3-10x training speedup)
-- � Deployed with **WASM** for browser play + Mobile support
+Training advanced Reinforcement Learning agents (DQN, CNN) to master 2048.
+- **Tech**: Rust, WebAssembly, PyTorch (MPS/CUDA), Python
+- ⚡ **Performance**: Optimized for Apple Silicon M4 GPUs (10x speedup)
+
+### 🔬 [pysuricata](https://github.com/alvarodiez20/pysuricata)
+A lightweight **Exploratory Data Analysis (EDA)** toolkit.
+- **Goal**: Make data insights immediate.
+- **Philosophy**: Minimal configuration, maximum insight.
 
 ### 🐘 [Big Data Labs](https://github.com/alvarodiez20/bigdata)
-My playground for **Data Engineering** and big data technologies.
-- Experiments with complex data systems
-- A collection of labs and proofs-of-concept
-- Focus on scalability and performance
+Labs for my classes at UNIE.
+- Hands-on labs with Spark, Hadoop, and distributed systems.
 
 ## 💻 Tech Stack
 
-### Languages
+### Core
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### Machine Learning & MLOps
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+### MLOps & Cloud
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-## 🎯 Interests
+### AI & Big Data
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apache-hadoop&logoColor=black)
 
-- 🛠️ **MLOps**: Building robust ML pipelines and infrastructure
-- 📊 **Big Data**: Wrangling large datasets efficiently
-- 🤖 **Reinforcement Learning**: Teaching agents to solve complex tasks
-- ⚡ **High Performance**: Optimizing code for specific hardware (like M4 chips!)
+## 🎓 Education & Certs
+- **MSc Industrial Mathematics** (Modeling Specialization) - UC3M
+- **Deep Learning Specialization** & **ML Engineering for Production** - DeepLearning.AI
 
 ## 📫 Reach Out
 
