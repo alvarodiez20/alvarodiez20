@@ -12,7 +12,7 @@ I love building fun, high-performance tools on the side:
 ### 🧠 [2048 - RL Agents & MPS Optimization](https://github.com/alvarodiez20/2048)
 Training advanced Reinforcement Learning agents (DQN, CNN) to master 2048.
 - **Tech**: Rust, WebAssembly, PyTorch (MPS/CUDA), Python
-- ⚡ **Performance**: Optimized for Apple Silicon M4 GPUs (10x speedup)
+- 🎮 **Play it now!** [alvarodiez20.github.io/2048/](https://alvarodiez20.github.io/2048/) (Mobile-ready with touch gestures!)
 
 ### 🔬 [pysuricata](https://github.com/alvarodiez20/pysuricata)
 A lightweight **Exploratory Data Analysis (EDA)** toolkit.
