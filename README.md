@@ -2,7 +2,7 @@
 
 ## 🚀 About Me
 
-I'm an **AI Platform / ML Engineer** specialized in **MLOps** passionate about Mathematics, Data Science and MLOps. I'm also an **Adjunct Lecturer** of Big Data at UNIE University.
+I'm an **AI Platform / ML Engineer** specialized in **MLOps** passionate about Mathematics and Data Science. I'm also an **Adjunct Lecturer** of Big Data at UNIE University.
 
 
 ## 🔭 Open Source & Projects
