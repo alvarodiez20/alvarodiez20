@@ -1,4 +1,4 @@
-# Hi there! 👋 I'm Álvaro Diez
+# Hi there! 👋 I'm Álvaro Diez de Pablos
 
 ## 🚀 About Me
 
@@ -27,7 +27,6 @@ Labs for my classes at UNIE.
 
 ### Core
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### MLOps & Cloud
@@ -50,10 +49,3 @@ Labs for my classes at UNIE.
 - **GitHub**: [@alvarodiez20](https://github.com/alvarodiez20)
 
 ---
-
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alvarodiez20&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alvarodiez20&layout=compact&theme=radical)
-
-</div>
