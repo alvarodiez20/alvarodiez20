@@ -2,26 +2,27 @@
 
 ## 🚀 About Me
 
-I'm an **AI Platform / ML Engineer** specialized in **MLOps** passionate about Mathematics and Data Science working in BNP Paribas. I'm also an **Adjunct Lecturer** of Big Data at UNIE University.
+I'm an **AI Platform / ML Engineer** specialized in **MLOps** passionate about Mathematics and Data Science working in BNP Paribas. I'm also a **Professor of Big Data** for the degree in Mathematics at UNIE University.
 
 
 ## 🔭 Open Source & Projects
 
 I love building fun, high-performance tools on the side:
 
+### 🔬 [pysuricata](https://github.com/alvarodiez20/pysuricata)
+A lightweight **Exploratory Data Analysis** for Python, Built on Streaming Algorithms.
+- **Goal**: Make data insights immediate. Minimal configuration, maximum insight.
+- **Check it out!**: [Pysuricata EDA Report](https://alvarodiez20.github.io/pysuricata/assets/titanic_report.html) - [PySuricata Docs](https://alvarodiez20.github.io/pysuricata/)
+
 ### 🧠 [2048 - RL Agents & MPS Optimization](https://github.com/alvarodiez20/2048)
 Training advanced Reinforcement Learning agents (DQN, CNN) to master 2048.
 - **Tech**: Rust, WebAssembly, PyTorch (MPS/CUDA), Python
 - 🎮 **Play it now!** [alvarodiez20.github.io/2048/](https://alvarodiez20.github.io/2048/) (Mobile-ready with touch gestures!)
 
-### 🔬 [pysuricata](https://github.com/alvarodiez20/pysuricata)
-A lightweight **Exploratory Data Analysis (EDA)** toolkit.
-- **Goal**: Make data insights immediate.
-- **Philosophy**: Minimal configuration, maximum insight.
-
 ### 🐘 [Big Data Labs](https://github.com/alvarodiez20/bigdata)
 Labs for my classes at UNIE.
 - Hands-on labs with Spark, Hadoop, and distributed systems.
+- **Check it out!**: [Big Data Cours Labs](https://alvarodiez20.github.io/bigdata/)
 
 ## 💻 Tech Stack
 
