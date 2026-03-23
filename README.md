@@ -1,30 +1,30 @@
 # Hi there! 👋 I'm Álvaro Diez de Pablos
 
-## 🚀 About Me
+## About Me
 
 I'm an **AI Platform / ML Engineer** specialized in **MLOps** passionate about Mathematics and Data Science working in BNP Paribas. I'm also a **Professor of Big Data** for the degree in Mathematics at UNIE University.
 
 
-## 🔭 Open Source & Projects
+## Open Source & Projects
 
 I love building fun, high-performance tools on the side:
 
-### 🔬 [pysuricata](https://github.com/alvarodiez20/pysuricata)
+### [pysuricata](https://github.com/alvarodiez20/pysuricata)
 A lightweight **Exploratory Data Analysis** for Python, Built on Streaming Algorithms.
 - **Goal**: Make data insights immediate. Minimal configuration, maximum insight.
 - **Check it out!**: [Pysuricata EDA Report](https://alvarodiez20.github.io/pysuricata/assets/titanic_report.html) - [PySuricata Docs](https://alvarodiez20.github.io/pysuricata/)
 
-### 🧠 [2048 - RL Agents & MPS Optimization](https://github.com/alvarodiez20/2048)
+### [2048 - RL Agents & MPS Optimization](https://github.com/alvarodiez20/2048)
 Training advanced Reinforcement Learning agents (DQN, CNN) to master 2048.
 - **Tech**: Rust, WebAssembly, PyTorch (MPS/CUDA), Python
-- 🎮 **Play it now!** [alvarodiez20.github.io/2048/](https://alvarodiez20.github.io/2048/) (Mobile-ready with touch gestures!)
+- **Play it now!** [alvarodiez20.github.io/2048/](https://alvarodiez20.github.io/2048/) (Mobile-ready with touch gestures!)
 
-### 🐘 [Big Data Labs](https://github.com/alvarodiez20/bigdata)
+### [Big Data Labs](https://github.com/alvarodiez20/bigdata)
 Labs for my classes at UNIE.
 - Hands-on labs with Spark, Hadoop, and distributed systems.
 - **Check it out!**: [Big Data Cours Labs](https://alvarodiez20.github.io/bigdata/)
 
-## 💻 Tech Stack
+## Tech Stack
 
 ### Core
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -40,11 +40,11 @@ Labs for my classes at UNIE.
 ![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
 ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apache-hadoop&logoColor=black)
 
-## 🎓 Education & Certs
+## Education & Certs
 - **MSc Industrial Mathematics** (Modeling Specialization) - UC3M
 - **Deep Learning Specialization** & **ML Engineering for Production** - DeepLearning.AI
 
-## 📫 Reach Out
+## Reach Out
 
 - **LinkedIn**: [Alvaro Diez de Pablos](https://www.linkedin.com/in/alvarodiez20/)
 - **GitHub**: [@alvarodiez20](https://github.com/alvarodiez20)
