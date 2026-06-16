@@ -19,6 +19,13 @@ Training advanced Reinforcement Learning agents (DQN, CNN) to master 2048.
 - **Tech**: Rust, WebAssembly, PyTorch (MPS/CUDA), Python
 - **Play it now!** [alvarodiez20.github.io/2048/](https://alvarodiez20.github.io/2048/) (Mobile-ready with touch gestures!)
 
+### [Tetris - Rust + WebAssembly with AI Opponents](https://github.com/alvarodiez20/tetris)
+A modern Tetris built on a pure-Rust core engine compiled to WebAssembly, with SRS wall kicks, a 7-bag randomizer, hold, ghost piece, and combo/back-to-back scoring.
+- **Tech**: Rust, WebAssembly (wasm-bindgen), Vite, TypeScript, Canvas
+- **Play it now!** [alvarodiez20.github.io/tetris/](https://alvarodiez20.github.io/tetris/) (Desktop keyboard + mobile touch, with Smart & Random AI bots!)
+
+[![Tetris gameplay — click to play](assets/tetris-demo.gif)](https://alvarodiez20.github.io/tetris/)
+
 ### [Big Data Labs](https://github.com/alvarodiez20/bigdata)
 Labs for my classes at UNIE.
 - Hands-on labs with Spark, Hadoop, and distributed systems.
