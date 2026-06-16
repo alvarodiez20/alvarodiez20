@@ -14,6 +14,11 @@ A lightweight **Exploratory Data Analysis** for Python, Built on Streaming Algor
 - **Goal**: Make data insights immediate. Minimal configuration, maximum insight.
 - **Check it out!**: [Pysuricata EDA Report](https://alvarodiez20.github.io/pysuricata/assets/titanic_report.html) - [PySuricata Docs](https://alvarodiez20.github.io/pysuricata/)
 
+### [Big Data Labs](https://github.com/alvarodiez20/bigdata)
+Labs for my classes at UNIE.
+- Hands-on labs with Spark, Hadoop, and distributed systems.
+- **Check it out!**: [Big Data Cours Labs](https://alvarodiez20.github.io/bigdata/)
+
 ### [2048 - RL Agents & MPS Optimization](https://github.com/alvarodiez20/2048)
 Training advanced Reinforcement Learning agents (DQN, CNN) to master 2048.
 - **Tech**: Rust, WebAssembly, PyTorch (MPS/CUDA), Python
@@ -25,11 +30,6 @@ A modern Tetris built on a pure-Rust core engine compiled to WebAssembly, with S
 - **Play it now!** [alvarodiez20.github.io/tetris/](https://alvarodiez20.github.io/tetris/) (Desktop keyboard + mobile touch, with Smart & Random AI bots!)
 
 [![Tetris gameplay — click to play](assets/tetris-demo.gif)](https://alvarodiez20.github.io/tetris/)
-
-### [Big Data Labs](https://github.com/alvarodiez20/bigdata)
-Labs for my classes at UNIE.
-- Hands-on labs with Spark, Hadoop, and distributed systems.
-- **Check it out!**: [Big Data Cours Labs](https://alvarodiez20.github.io/bigdata/)
 
 ## Tech Stack
 
