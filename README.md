@@ -1,4 +1,4 @@
-# Hi there! 👋 I'm Álvaro Diez de Pablos
+# Hi there! 👋 I'm Álvaro Diez
 
 ## About Me
 
