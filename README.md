@@ -2,7 +2,7 @@
 
 ## About Me
 
-I'm an **AI Platform / ML Engineer** specialized in **MLOps** passionate about Mathematics and Data Science working in BNP Paribas. I'm also a **Professor of Big Data** for the degree in Mathematics at UNIE University.
+I'm an **AI Platform / Engineer** specialized in **MLOps** passionate about Mathematics and Data Science working in BNP Paribas. I'm also a **Professor of Big Data** for the degree in Mathematics at UNIE University.
 
 
 ## Open Source & Projects
