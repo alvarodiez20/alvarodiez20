@@ -65,7 +65,7 @@ Also, for fun: **[2048](https://alvarodiez20.github.io/2048/)** — RL agents (D
 - **MSc Industrial Mathematics** (M2i), modelling specialisation — Universidad Carlos III de Madrid
 - **BSc Mechanical Engineering** (bilingual) — Universidad Carlos III de Madrid, with an exchange year at Purdue University
 - **CKA: Certified Kubernetes Administrator** — CNCF
-- Deep Learning Specialization & MLOps Engineering for Production — DeepLearning.AI
+- **Deep Learning Specialization & MLOps Engineering for Production** — DeepLearning.AI
 
 ### Reach out
 
