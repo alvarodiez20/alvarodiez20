@@ -50,7 +50,7 @@ Also, for fun: **[2048](https://alvarodiez20.github.io/2048/)** — RL agents (D
 
 ### Stack
 
-**Languages** Python · Rust · SQL · Bash
+**Languages** Python · SQL · Bash
 
 **Agents & LLM** LangGraph · Pydantic-AI · MCP · harness design · context engineering · tool-calling loops · sessions & checkpointing · token budgeting & cost control · evals · RAG
 
