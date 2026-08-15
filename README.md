@@ -1,59 +1,72 @@
-# Hi there! 👋 I'm Álvaro Diez
+## Álvaro Diez de Pablos
 
-## About Me
+**AI Platform Engineer at BNP Paribas.** I build and run our internal coding agent — a Claude Code style CLI that our engineers use every day, at billions of tokens a month in production. I own the harness behind it: the tool-calling loop, sessions and checkpointing, context engineering and compaction, permissioning and cost control.
 
-I'm an **AI Platform / Engineer** specialized in **MLOps** passionate about Mathematics and Data Science working in BNP Paribas. I'm also a **Professor of Big Data** for the degree in Mathematics at UNIE University.
+Before agents I spent five years on the less glamorous half of this job: MLOps at BNP Paribas, where I took model retraining and deployment from months down to hours, and before that a wind power forecasting system processing terabytes a day of meteorological data.
 
-
-## Open Source & Projects
-
-I love building fun, high-performance tools on the side:
-
-### [pysuricata](https://github.com/alvarodiez20/pysuricata)
-A lightweight **Exploratory Data Analysis** for Python, Built on Streaming Algorithms.
-- **Goal**: Make data insights immediate. Minimal configuration, maximum insight.
-- **Check it out!**: [Pysuricata EDA Report](https://alvarodiez20.github.io/pysuricata/assets/titanic_report.html) - [PySuricata Docs](https://alvarodiez20.github.io/pysuricata/)
-
-### [Big Data Labs](https://github.com/alvarodiez20/bigdata)
-Labs for my classes at UNIE.
-- Hands-on labs with Spark, Hadoop, and distributed systems.
-- **Check it out!**: [Big Data Cours Labs](https://alvarodiez20.github.io/bigdata/)
-
-### [2048 - RL Agents & MPS Optimization](https://github.com/alvarodiez20/2048)
-Training advanced Reinforcement Learning agents (DQN, CNN) to master 2048.
-- **Tech**: Rust, WebAssembly, PyTorch (MPS/CUDA), Python
-- **Play it now!** [alvarodiez20.github.io/2048/](https://alvarodiez20.github.io/2048/) (Mobile-ready with touch gestures!)
-
-### [Tetris - Rust + WebAssembly with AI Opponents](https://github.com/alvarodiez20/tetris)
-A modern Tetris built on a pure-Rust core engine compiled to WebAssembly, with SRS wall kicks, a 7-bag randomizer, hold, ghost piece, and combo/back-to-back scoring.
-- **Tech**: Rust, WebAssembly (wasm-bindgen), Vite, TypeScript, Canvas
-- **Play it now!** [alvarodiez20.github.io/tetris/](https://alvarodiez20.github.io/tetris/) (Desktop keyboard + mobile touch, with Smart & Random AI bots!)
-
-[![Tetris gameplay — click to play](assets/tetris-demo.gif)](https://alvarodiez20.github.io/tetris/)
-
-## Tech Stack
-
-### Core
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### MLOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-### AI & Big Data
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
-![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apache-hadoop&logoColor=black)
-
-## Education & Certs
-- **MSc Industrial Mathematics** (Modeling Specialization) - UC3M
-- **Deep Learning Specialization** & **ML Engineering for Production** - DeepLearning.AI
-
-## Reach Out
-
-- **LinkedIn**: [Alvaro Diez de Pablos](https://www.linkedin.com/in/alvarodiez20/)
-- **GitHub**: [@alvarodiez20](https://github.com/alvarodiez20)
+I also teach Big Data to fourth-year Mathematics students at UNIE.
 
 ---
+
+### What I'm building
+
+#### [endstate](https://github.com/alvarodiez20/endstate) — agent evals that grade the end state, not the output
+
+Most agent evals grade text: they ask a model whether the answer *looks* right. That's cheap to build and easy to game. `endstate` throws away everything the agent said and asserts against what it left behind — did the test suite go green, is there a secret in the diff, did it refuse the destructive command, did it survive being killed halfway through.
+
+The end state is gameable too, which is the half most write-ups skip. So every task pins its test files by hash, refuses new skip markers, confines changes to permitted paths, and runs held-out tests that were never in the sandbox.
+
+**22 tasks** in disposable Docker containers · deterministic graders that never see the transcript, enforced by signature · a **mutation check** that removes each guard and proves the suite notices · 344 tests · `mypy --strict`
+
+```bash
+pip install endstate
+```
+
+[Docs](https://alvarodiez20.github.io/endstate/) · [How agents actually work](https://alvarodiez20.github.io/endstate/concepts/) — a walk through harness internals: the loop, the sandbox boundary, permissioning, compaction, checkpoint durability
+
+#### [pysuricata](https://github.com/alvarodiez20/pysuricata) — exploratory data analysis built on streaming algorithms
+
+Profiles a DataFrame in a **single pass**, with memory that stays bounded no matter how large the data is. Welford/Pébay for exact moments, KMV sketches for distinct counts, Misra-Gries for heavy hitters, reservoir sampling for quantiles. Pandas, Polars and LazyFrames; output is one self-contained HTML file with no external assets.
+
+```bash
+pip install pysuricata
+```
+
+[Docs](https://alvarodiez20.github.io/pysuricata/) · [Live example report](https://alvarodiez20.github.io/pysuricata/assets/titanic_report.html) · [Statistical methods](https://alvarodiez20.github.io/pysuricata/stats/overview/)
+
+#### [Big Data course labs](https://github.com/alvarodiez20/bigdata) — open materials for the course I teach at UNIE
+
+Out-of-core computing and storage formats, streaming and sketching algorithms, distributed systems from first principles, Spark, Airflow, Slurm.
+
+#### [cka-practice](https://github.com/alvarodiez20/cka-practice) — eleven mock CKA exams solved against a real cluster
+
+The grader inspects the cluster's actual state, not an answer key. Same idea as `endstate`, applied to Kubernetes.
+
+---
+
+Also, for fun: **[2048](https://alvarodiez20.github.io/2048/)** — RL agents (DQN, CNN) trained with PyTorch on MPS, Rust core compiled to WebAssembly. And **[Tetris](https://alvarodiez20.github.io/tetris/)** — pure-Rust engine in WASM with SRS wall kicks, 7-bag randomiser, and AI opponents.
+
+---
+
+### Stack
+
+**Languages** Python · Rust · SQL · Bash
+
+**Agents & LLM** LangGraph · Pydantic-AI · MCP · harness design · context engineering · tool-calling loops · sessions & checkpointing · token budgeting & cost control · evals · RAG
+
+**Platform & infra** Kubernetes (CKA) · Docker · Terraform · GitOps · GitLab CI/CD · GitHub Actions · Domino Data Lab · JFrog Artifactory · FastAPI · Linux
+
+**Data & ML** MLflow · PyTorch · TensorFlow · scikit-learn · XGBoost · Spark · Airflow · Dask · Xarray · Kafka · PostgreSQL · S3 · pandas · Polars · NumPy · streaming algorithms
+
+**Engineering** uv · Pytest · Coverage.py · Ruff · `mypy --strict` · Pydantic · pre-commit · Conventional Commits · MkDocs · trunk-based development
+
+### Education & certifications
+
+- **MSc Industrial Mathematics** (M2i), modelling specialisation — Universidad Carlos III de Madrid
+- **BSc Mechanical Engineering** (bilingual) — Universidad Carlos III de Madrid, with an exchange year at Purdue University
+- **CKA: Certified Kubernetes Administrator** — CNCF
+- Deep Learning Specialization & MLOps Engineering for Production — DeepLearning.AI
+
+### Reach out
+
+[LinkedIn](https://www.linkedin.com/in/alvarodiez20/) · alvarodiez20@gmail.com
